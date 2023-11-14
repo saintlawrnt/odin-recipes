@@ -1,0 +1,50 @@
+h1 {
+    color: blue;
+    font-family: 'Zen Dots', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: lightblue;
+  }
+
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: blue;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  .categories {
+    font-family: 'Zen Dots', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: rgb(100, 68, 30);
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+    border: 4px solid #000;
+  }
